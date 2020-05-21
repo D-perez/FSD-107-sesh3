@@ -1,0 +1,25 @@
+body{
+    background-color: #e4e1e1;
+    color: #e4e1e1;
+}
+h1{
+    color: #343a40;
+}
+.item{
+    border: solid gray 2px;
+    width: 25rem;
+    display: inline-block;
+    margin: 3rem;
+    background-color: #343a40;
+}
+
+.item p{
+    text-align: center;
+}
+.item-img{
+    width: 300px;
+    height: 200px;
+    padding-left: 17%;
+    padding-right: auto;
+    
+}
