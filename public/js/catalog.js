@@ -33,7 +33,7 @@ function drawItem(product) {
             <h3 class="card-title">$${product.price}</h3>
             <img src="${product.image}" alt="">
             <p class="card-text">${product.description}</p>
-            <button class="btn btn-outline-info btn-block">Add to cart</button>
+            <button class="green btn btn-outline-info btn-block">Add to cart</button>
         </div>
         <div class="card-footer text-muted">
             Category - <b>${product.category}</b>

@@ -23,3 +23,16 @@ button{
     justify-content: center;
     margin-left: 40%;
 }
+
+.green{
+    border: 1px solid rgb(40, 167, 69);
+    color: rgb(40, 167, 69);
+
+}
+
+.green:hover{
+    background-color:rgb(40, 167, 69);
+    color: white;
+
+
+}
