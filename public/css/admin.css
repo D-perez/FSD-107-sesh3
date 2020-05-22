@@ -1,3 +1,17 @@
+
+body{
+    background-color: black;
+    color: darkseagreen;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
 .hidden{
     display: none;
 }
@@ -14,3 +28,12 @@
      color: white;
      background-color: rgb(40, 167, 69);
  }
+
+ .red{
+     color: red;
+     border: 1px red solid;
+
+}
+
+ 
+
