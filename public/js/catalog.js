@@ -13,7 +13,7 @@ function fetchCatalog() {
             for(var i = 0; i < res.length; i++) {
                 var item = res[i];
                 drawItem(item); // send each item to draw on the HTML
-                items.push(item) //trying to add tom items to restore search
+                items.push(item) //trying to add to items to restore search
             }
             
         },
@@ -41,8 +41,7 @@ function drawItem(product) {
     </div>
     `;
 
-    $('#catalog').append(layout);
-
+    $('#catalog').append(layout); 
 }
 
 function Search() {
@@ -66,15 +65,16 @@ function init() {
     
     $('#btn-search').click(Search);
 
-    $('#txt-search').change(() => {
-        var searchText = $('#txt-search').val();
-
-        for ( var i = 0; i < items.length; i++) {
-            if(searchText == '') {
-                drawItem(items[i]);
-            }
-        }
-    });
+    // $('#txt-search').change(() => {
+    //     var searchText = $('#txt-search').val();
+    //                                                // dont know why but causes double print
+    //     for ( var i = 0; i < items.length; i++) {
+    //         if(searchText == '') {
+    //             $('#catalog').html('')
+    //             drawItem(items[i]);
+    //         }
+    //     }
+    // });
 
     $('#txt-search').keypress((e) => {
         console.log(e);
