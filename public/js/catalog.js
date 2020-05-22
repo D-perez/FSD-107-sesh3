@@ -13,6 +13,7 @@ function fetchCatalog() {
             for(var i = 0; i < res.length; i++) {
                 var item = res[i];
                 drawItem(item); // send each item to draw on the HTML
+                items.push(item) //trying to add tom items to restore search
             }
             
         },
@@ -45,6 +46,7 @@ function drawItem(product) {
 }
 
 function Search() {
+    console.log('searched function activated')
     var searchText = $('#txt-search').val();
 
     $('#catalog').html('');
