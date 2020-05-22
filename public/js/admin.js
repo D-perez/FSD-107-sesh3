@@ -69,7 +69,7 @@ function register() {
 }
 
 function init() {
-    console.log('Admin Loaded');
+    console.log('Admin js good');
 
     $('#btn-register').on('click',function(){
         register();
