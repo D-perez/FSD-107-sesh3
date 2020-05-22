@@ -45,10 +45,10 @@ function register() {
         success: function(response){
             console.log('It Works',response);
             // show notification
-            $('#success').removeClass('hidden');
+            $('#alert-box').removeClass('hidden');
             // hide notification
             setTimeout(function(){
-                $('#success').addClass('hidden');
+                $('#alert-box').addClass('hidden');
             },5000);
         },
         error: function(errorDetails) {
