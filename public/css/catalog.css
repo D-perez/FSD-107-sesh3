@@ -1,4 +1,15 @@
 
+.container{
+    
+}
+
+.catalog-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3rem;
+    
+}
+
 h1{
     color: #343a40;
     text-align: center;
