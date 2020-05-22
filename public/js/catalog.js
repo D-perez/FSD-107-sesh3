@@ -59,7 +59,7 @@ function Search() {
 
 function init() {
 
-    console.log(' Loaded');
+    console.log(' loaded');
     fetchCatalog();
     
     $('#btn-search').click(Search);
