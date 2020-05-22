@@ -3,5 +3,14 @@
 }
 
  .works{
-     color: green;
+     color: rgb(40, 167, 69);
+ }
+
+ .btn{
+     border: 1px solid rgb(40, 167, 69);
+ }
+
+ .btn:hover{
+     color: white;
+     background-color: rgb(40, 167, 69);
  }

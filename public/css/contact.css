@@ -21,7 +21,7 @@ label{
 
 button{
     justify-content: center;
-    margin-left: 40%;
+    margin-bottom: 1.5em;
 }
 
 .green{
@@ -35,4 +35,11 @@ button{
     color: white;
 
 
+}
+
+#contact-form{
+    border:1px solid rgba(0,0,0,.125);
+    display: grid;
+    border-radius: 5px;
+    
 }
