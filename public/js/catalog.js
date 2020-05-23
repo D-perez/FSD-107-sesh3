@@ -5,7 +5,7 @@ var items = [];
 function fetchCatalog() {
     // get items from server
     $.ajax({
-        url: serverURL+"items",
+        url: serverURL+"items/daniel", //last dir sorts by user. remove username to display all
         type: "GET",
         success: (res) => {
             console.log('Get works',res);

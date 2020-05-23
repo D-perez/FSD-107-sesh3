@@ -52,7 +52,7 @@ function register() {
             },5000);
         },
         error: function(errorDetails) {
-            console.log('Something went wrong....', errorDetails);
+            console.log('Something went wrong', errorDetails);
             $('#error').show();
             $('#error').hide(5000);
         }
